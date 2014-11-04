@@ -1,0 +1,42 @@
+.bm_wrap{ background: #e9e8ee;}
+.sign_online{ background:#FFFFFF; overflow: hidden;}
+.sign_online_img{ float: left; width: 536px; height: 554px;}
+.sign_online_mes{ width: 464px;   float: left;}
+.sign_online_mes h1{ height: 26px; line-height: 26px; font-size: 14px; margin-top: 35px; color: #C6171E; background: url(../images/bk01.jpg) no-repeat center left; padding-left: 20px;} 
+
+.sign_online_p{ font-size: 12px; line-height: 20px;}
+
+.sign_online_table  td{ font-size: 12px;  line-height: 36px;}
+
+.sign_text{ border-left:#999999 solid 1px ;  border-top:#999999 solid 1px ; border-bottom:#dddddd solid 1px; border-right:#dddddd solid 1px; width: 240px; }
+.sign_text_long{ width: 300px;}
+.sign_textarea{border-left:#999999 solid 1px ;  border-top:#999999 solid 1px ; border-bottom:#dddddd solid 1px; border-right:#dddddd solid 1px;  height: 68px; width: 280px; }
+.sign_yzm{ width: 80px;}
+.sign_online_table .sign_sub{ height: 36px; width: 80px; margin-left:100px;  text-align: center; line-height: 28px;}
+
+
+
+.school_time,.regis_process,.problems{ background: #FFFFFF; padding:0px 35px; }
+
+.school_time h2,.regis_process h2,.problems h2{height: 26px; line-height: 26px; font-size: 14px;  color: #C6171E; background: url(../images/bk01.jpg) no-repeat center left; padding-left: 20px;}
+.school_time_table td ,.school_time_table th{ border: #DDDDDD solid 1px; text-align: center; font-size: 14px; line-height: 26px; font-weight: normal;}
+.school_time_table td .green{ color: #1a5a18;}
+
+.regis_process ul li{width: 118px; height: 138px; border: #DDDDDD solid 1px; background:url(../images/bk03.jpg) no-repeat  top left; float: left; margin-left: 10px; display: inline; position: relative;}
+.regis_process ul li h3{ height: 40px; line-height: 40px; font-size: 14px; font-weight: normal;}
+.regis_process ul li h3 i{ font-size: 32px; display: block; float: left; width: 30px; text-align:center; line-height: 30px; color: #FFFFFF; font-style: normal;}
+.regis_process ul li p{ font-size: 12px; padding: 0px 9px;}
+.regis_process ul li  a{ position: absolute; bottom: 10px; left: 10px; width:60px;  padding-left:22px;height:20px; line-height: 20px; font-size: 12px; color: #C6171E; }
+.red_a_01{ background:url(../images/icon01.jpg) no-repeat center left; }
+.red_a_02{ background:url(../images/icon02.jpg) no-repeat center left; }
+.red_a_03{ background:url(../images/icon03.jpg) no-repeat center left; }
+.red_a_05{ background:url(../images/icon05.jpg) no-repeat center left; }
+
+
+.problems h2{border-bottom:#999999 dotted 1px; height: 60px; line-height: 60px;}
+.problems_list li{ border-bottom:#999999 dotted 1px; padding: 10px ;} 
+.problems_list li h3{ background: url(../images/icon06.jpg) no-repeat center left; height: 36px; line-height: 36px; font-size: 16px; color:#464644; padding-left: 30px; margin-bottom: 15px;}
+.problems_list li p{ font-size: 14px; padding-left: 30px; background: url(../images/icon07.jpg) no-repeat top left;}
+
+
+

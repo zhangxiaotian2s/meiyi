@@ -1,0 +1,53 @@
+*{ margin: 0; padding: 0; font-family: "微软雅黑";}
+a{ text-decoration: none;}
+li{ list-style: none;}
+img{ border: 0;}
+
+table{ border-collapse: collapse;}
+
+.wrap{ width: 100%; overflow: hidden;}
+.blank10{ display: block; height: 10px; clear: both; overflow: hidden;}
+.blank20{display: block; height: 20px; clear: both; overflow: hidden;}
+.blank30{display: block; height: 30px; clear: both; overflow: hidden;}
+.width1000{ width: 1000px; margin:  auto;}
+.red_span { color: #C6171E;}
+.green{ color: #1a5a18;}
+.hover1s{ -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -ms-transition: all 1s; -o-transition: all 1s ease; transition: all 1s ease ;}
+/***************public_top***************************************/
+
+.public_top{ width: 100%; height: 94px; background: #c6171e;}
+.public_top #logo{ width: 222px; height: 94px; float:left;}
+.public_top nav{ width: 778px; float: left;}
+.public_top nav  ul li { width: 128px; float: left; text-align: center;padding-top: 20px;}
+.public_top nav  ul li a{ color: #fff; font-weight: bold; font-size: 14px; line-height: 26px; }
+.public_top nav  ul li a span{ display: block; font-family:"arial"; font-weight: normal; font-size: 10px; color: #6c070b;}
+.public_top nav  ul li a:hover{ color: #e8e8e8;}
+.public_top nav  ul li a:hover span{ color: #FFFFFF; margin-top: 2px;10px}
+
+
+/******************page**********************/
+.page { margin-left: 100px;}
+.page ul li{ float: left; margin:0px 5px;}
+
+.page ul li a{ display: block; font-size: 12px; background: #000; color: #FFFFFF; padding: 4px 8px;}
+
+.page ul li.current a{ background: #C6171E;}
+
+/*****************foot***************************/
+
+.foot_nav{ background: #131315; height: 142px; padding: 20px;}
+.foot_nav ul li{ width: 170px; float: left; background:url(../images/bk04.jpg) no-repeat center right; padding-right:20px;}
+.foot_nav ul li dd{ font-size: 12px; text-align: right; display: block; height:30px; line-height:30px;}
+.foot_nav ul li dd a{ color: #FFFFFF; }
+.foot_nav ul li dt a{ font-weight:bold; color:#c60001; font-size:14px;}
+.foot_nav ul li dt{ background:#000; text-align:right}
+
+.foot_bottom{ height:120px; width:100%; background:#000}
+.foot_logo{ float: left; width:251px;}
+.copyright{ float:left; width:419px;}
+.copyright p{ color:#FFF; padding-left:30px; font-size:12px;letter-spacing: 1px; line-height:24px;}
+.copyright p span{ display:block; color:#5f5f5f}
+
+.foot_wx{ float:left; width:330px; padding-top:10px;}
+.foot_wx img{ display:block; float:left}
+.foot_wx  p{ float:left; color:#fff; font-size:12px; line-height:20px; padding-left:10px;}
