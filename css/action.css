@@ -1,0 +1,32 @@
+@keyframes enlarge_images{
+	from{
+		transform: scale(1);
+	}
+	to{
+		transform: scale(1.2);
+	}
+}
+@-moz-keyframes enlarge_images{
+	from{
+		-moz-transform: scale(1);
+	}
+	to{
+		-moz-transform: scale(1.2);
+	}
+}
+@-webkit-keyframes enlarge_images{
+	from{
+		-webkit-transform: scale(1);
+	}
+	to{
+		-webkit-transform: scale(1.2);
+	}
+}
+@-ms-keyframes enlarge_images{
+	from{
+		-ms-transform: scale(1);
+	}
+	to{
+		-ms-transform: scale(1.2);
+	}
+}
