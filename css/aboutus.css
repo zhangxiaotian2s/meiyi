@@ -1,0 +1,21 @@
+
+.about_wrap{ background: #e9e8ee;}
+
+.abut_team,.aboutus_content{ background: #FFFFFF; overflow: hidden;}
+.abut_team ul li{ width: 83px; height: 83px; float:left;}
+.abut_team ul li img{ display: block; margin:1px auto;}
+.abut_team ul li.last{ background: #C6171E;}
+
+.aboutus_content h1{ width: 180px; float: left;}
+.aboutus_nr{ width: 800px; padding: 10px; float: left;}
+
+.aboutus_nr h2{ font-size: 16px; height: 36px; line-height: 36px; color: #444444;}
+.aboutus_nr p{  line-height: 22px; font-size: 14px;color: #444444;}
+.about_jyys li{ height: 26px; line-height: 26px; font-size: 14px; color: #444444;}
+
+
+.pay_bank li{ border: #bababa solid 2px; width: 256px; float: left; margin-right: 20px; display: inline;}
+.pay_bank li span{ display: block; width: 18px; height: 18px; float: left;  margin: 12px 5px 0px 15px;}
+.pay_bank li p{ font-size: 12px; height: 60px; padding: 10px 5px; float: left; width: 200px;}
+.pay_bank li .icon01{ background: url(../images/bank_icon.jpg) 0px 0px;}
+.pay_bank li .icon02{background: url(../images/bank_icon.jpg) 0px 19px;

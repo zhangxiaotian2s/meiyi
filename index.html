@@ -14,11 +14,11 @@
 		<!--[if lte IE 8]>
            <script src="js/html5.js"></script>
     <![endif]-->
-    <![endif]-->
+   
 		<!--[if IE 6]>
 	<script src="js/IE6PNG.js"></script>
     <script>
-    	DD_belatedPNG.fix(".ie6png,.clss_all ul li div h2");
+    	DD_belatedPNG.fix(".ie6png,.class_all ul li div h2,.contact_area i");
     </script>
 <![endif]-->
 	</head>
@@ -53,14 +53,14 @@
 		<div class="wrap index_wrap">
 			<section class="banner">
 				<ul id="bannerul">
-					<li>
-						<img src="images/banner01.jpg" width="1000" height="428" alt="">
+					<li  style="background:#182032 url(images/in_banner01.jpg) no-repeat center;">
+						
 					</li>
-					<li>
-						<img src="images/banner01.jpg" width="1000" height="428" alt="">
+					<li  style="background:#182032 url(images/in_banner01.jpg) no-repeat center;">
+						
 					</li>
-					<li>
-						<img src="images/banner01.jpg" width="1000" height="428" alt="">
+					<li  style="background:#182032 url(images/in_banner01.jpg) no-repeat center;">
+						
 					</li>
 				</ul>
 				<ul id="ban_btnul">
@@ -174,7 +174,7 @@
    <section class="our_team width1000"> 
    	<div class="teamleader_des">
    		<img src="images/in_img13.jpg" width="400" height="450" />
-   		<p>牛子涵 老师<br />
+   		<p class="ie6png">牛子涵 老师<br />
    		 韩国ceci杂志封面 御用化妆师<br />
    		 合作媒体老牛了合作媒体老牛了合作媒体老牛了合作媒体老牛了合作媒体老牛了
    		 合作媒体老牛了合作媒体老牛了合作媒体老牛了合作媒体老牛了合作媒体老牛了
@@ -239,15 +239,45 @@
 
 <div class="blank20"></div>
 
-<section class="works_show">
+<section class="works_show  width1000">
 	<header>
-		<h1><a href="#"><img src="images/in_h102.jpg" width="232" height="115" alt=""></a></h1>
-		<div>
-			<a href="#"><img src="images/in_img09.jpg" width="232" height="275" alt=""></a>
+		<h1><a href="#"><img src="images/in_h102.jpg" width="230" height="115" alt=""></a></h1>
+		<div class="firt_show_img">
+			<a href="#"><img src="images/in_img09.jpg" width="230" height="275" alt=""></a>
 			
 		</div>
 	</header>
 	
+	<div class="works_list">
+		 <ul>
+		 	
+		 	<li><a href="#"><img src="images/in_img10.jpg" width="110" height="130" alt=""></a></li>
+		 	<li><a href="#"><img src="images/in_img11.jpg" width="110" height="130" alt=""></a></li>
+		 	<li><a href="#"><img src="images/in_img12.jpg" width="110" height="130" alt=""></a></li>
+		 	<li><a href="#"><img src="images/in_img10.jpg" width="110" height="130" alt=""></a></li>
+		 	<li><a href="#"><img src="images/in_img11.jpg" width="110" height="130" alt=""></a></li>
+		 	<li><a href="#"><img src="images/in_img12.jpg" width="110" height="130" alt=""></a></li>
+		 	<li><a href="#"><img src="images/in_img10.jpg" width="110" height="130" alt=""></a></li>
+		 	<li><a href="#"><img src="images/in_img11.jpg" width="110" height="130" alt=""></a></li>
+		 	<li><a href="#"><img src="images/in_img12.jpg" width="110" height="130" alt=""></a></li>
+		 	<li><a href="#"><img src="images/in_img10.jpg" width="110" height="130" alt=""></a></li>
+
+		 	<li><a href="#"><img src="images/in_img12.jpg" width="110" height="130" alt=""></a></li>
+		 	<li><a href="#"><img src="images/in_img10.jpg" width="110" height="130" alt=""></a></li>
+		 	<li><a href="#"><img src="images/in_img11.jpg" width="110" height="130" alt=""></a></li>
+		 	<li><a href="#"><img src="images/in_img12.jpg" width="110" height="130" alt=""></a></li>
+		 	<li><a href="#"><img src="images/in_img10.jpg" width="110" height="130" alt=""></a></li>
+		 	<li><a href="#"><img src="images/in_img11.jpg" width="110" height="130" alt=""></a></li>
+		 	<li><a href="#"><img src="images/in_img12.jpg" width="110" height="130" alt=""></a></li>
+		 	<li><a href="#"><img src="images/in_img10.jpg" width="110" height="130" alt=""></a></li>
+		 	<li><a href="#"><img src="images/in_img11.jpg" width="110" height="130" alt=""></a></li>
+		 	<li><a href="#"><img src="images/in_img12.jpg" width="110" height="130" alt=""></a></li>
+		 	<li class="more"><a href="#"><img src="images/in_more.jpg" width="110" height="130"a alt="更多"></a></li>
+		 	
+		 </ul>
+		
+		
+	</div>
 	
 </section>
 
@@ -424,11 +454,6 @@
 				$("#bannerul>li").css("width",bannerWidth)
 				}
 				//设置bannerli背景颜色
-				var bannerli=$("#bannerul>li")
-				var bannerlibk=["#182032","#182032","#182032"]
-				for(var i=0; i <bannerli.length;i++){
-				 	bannerli.eq(i).css("background",bannerlibk[i])
-				}	
 				
 				$("#contact_area_wx").hover(function(){
 					$(this).find(".contact_wx_ma").slideDown();
@@ -436,10 +461,13 @@
 					$(this).find(".contact_wx_ma").slideUp()
 				})
 				
-				//
+				//团队与作品展示的 标题与更多插入
 				var team_h1=$(".team_list>ul>li").first()
 				    team_h1.remove()
 				  $(".team_list>ul>li").eq(4).after(team_h1)
+				var works_more=$(".works_list>ul>li").last()
+			      	works_more.remove()
+			      	$(".works_list>ul>li").eq(7).after(works_more)
 				
 		   //banner滚动控制
 		   $.fn.scrollfn({   

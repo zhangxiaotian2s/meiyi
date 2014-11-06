@@ -1,32 +1,40 @@
 @keyframes enlarge_images{
 	from{
 		transform: scale(1);
+		opacity: 0.5;
 	}
 	to{
-		transform: scale(1.2);
+		transform: scale(1.1);
+		opacity: 1.0;
 	}
 }
 @-moz-keyframes enlarge_images{
 	from{
 		-moz-transform: scale(1);
+		opacity: 0.5;
 	}
 	to{
-		-moz-transform: scale(1.2);
+		-moz-transform: scale(1.1);
+		opacity: 1.0;
 	}
 }
 @-webkit-keyframes enlarge_images{
 	from{
 		-webkit-transform: scale(1);
+		-webkit-opacity: 0.5;
 	}
 	to{
-		-webkit-transform: scale(1.2);
+		-webkit-transform: scale(1.1);
+		-webkit-opacity: 1.0;
 	}
 }
 @-ms-keyframes enlarge_images{
 	from{
 		-ms-transform: scale(1);
+		opacity: 0.5;
 	}
 	to{
-		-ms-transform: scale(1.2);
+		-ms-transform: scale(1.1);
+		opacity: 1.0;
 	}
 }

@@ -1,13 +1,13 @@
-
+class_tel
 .index_wrap{ background: #e9e8ee;}
 
 .banner{ width: 100%; height: 428px; overflow: hidden; position: relative;}
 #bannerul{ width: 10000px; height: 428px; position: absolute; }
 #bannerul li{  height: 428px; float: left;}
-#bannerul li img{ display: block; margin: 0 auto;}
+
 
 #ban_btnul { width: 100px; position: absolute;  bottom: 20px ; left: 50%; margin-left: -50px;}
-#ban_btnul li{ width: 15px; height: 15px; background:#3a3e41; float: left ; margin: 0px 5px; display:inline;}
+#ban_btnul li{ width: 15px; height: 15px; overflow: hidden; background:#3a3e41; float: left ; margin: 0px 5px; display:inline;}
 #ban_btnul li.current{ background: #C60001;}
 /*****************************/
 .contact_area{ width: 100%; height: 60px; background: #131315;}
@@ -31,10 +31,10 @@
 .class_tel h1 { font-size: 36px; font-family: "黑体"; color: #FFFFFF; text-align:center; margin: 60px  auto 50px; }
 
 .class_tel  p{ color: #FFFFFF; font-size: 20px ; font-weight: bold; padding-left: 20px;}
-.class_tel  p span{ font-size: 16px; font-weight: normal;}
+.class_tel  p span{ display: block; font-size: 16px; font-weight: normal;}
 
 .class_all{ width:826px; height: 310px; position:relative; float: left; margin-left:4px ; display:inline;}
-.class_all ul li{ overflow: hidden; position:absolute;}
+.class_all ul li{ overflow: hidden; position:absolute; z-index: 100;}
 .class_all ul li div{ width: 100%; height: 100%; position: relative;}
 .class_all ul li div h2{ font-size: 14px; height: 32px; line-height: 32px;text-align: center; background:url(../images/bk50.png); position: absolute; bottom: 0px; left: 0px; width: 100%;}
 .class_all ul li div h2 a{ color: #FFFFFF;}
@@ -45,18 +45,21 @@
 .class_all_05{ width: 200px;  height: 149px; left: 420px; top:161px}
 .class_all_06{ width: 190px; height: 310px; right: 0px; top: 0px;}
 
-.clss_all ul li div:hover img,.team_list ul li:hover img{
+.class_all ul li div:hover img,.team_list ul li:hover img,.works_list ul li:hover img,.firt_show_img a:hover img{
 	    animation:enlarge_images 1.5s ease;
-	   -webkit-animation:enlarge_images 1.5s ease;
-	   -moz-animation:enlarge_images 1.5s ease;
+	    -webkit-animation:enlarge_images 1.5s ease;
+	    -moz-animation:enlarge_images 1.5s ease;
 	    -ms-animation:enlarge_images 1.5s ease;
-	     animation-direction: reverse;
-	     -moz-animation-direction: reverse;
-	      -webkit-animation-direction: reverse;
-	       -ms-animation-direction: reverse;
+	    animation-fill-mode:forwards; 
+	    -webkit-animation-fill-mode: forwards; 
+	    -moz-animation-fill-mode: forwards; 
+	    -ms-animation-fill-mode: forwards; 
+	  
 	 
 	
 }
+
+
 /*************************************/
 
 
@@ -65,6 +68,29 @@
 .team_list{ width: 600px; height: 450px; float: left;}
 .team_list ul li{ width:150px; height: 150px ; overflow: hidden; float: left;}
 
+.team_list ul li:nth-of-type(6):hover img{
+	
+	 animation:none
+	   -webkit-animation: none;
+	   -moz-animation: none;
+	    -ms-animation:none;
+	     
+	
+}
 
 
-
+.firt_show_img{ width: 230px; height: 275px; overflow: hidden;}
+.works_show header{ width: 230px; height: 390px; overflow: hidden; float: left;}
+.works_show header img{ display: block;}
+.works_list{ float: left; width: 770px;}
+.works_list ul li{  float: left; width: 110px; height: 130px; overflow: hidden;}
+.works_list ul li img{ display: block;}
+.works_list ul li:nth-of-type(9):hover img{
+	
+	 animation:none
+	   -webkit-animation: none;
+	   -moz-animation: none;
+	    -ms-animation:none;
+	     
+	
+}
