@@ -7,8 +7,7 @@
 		<meta name="keywords" content="" />
 		<meta name="description" content="" />
 		<link rel="stylesheet" href="css/public.css" />
-	     <link rel="stylesheet" href="css/aboutus.css" /> />
-		
+	     <link rel="stylesheet" href="css/course.css" /> 
 		<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
 		<script type="text/javascript" src="js/scroll.js"></script>
 		<!--[if lte IE 8]>
@@ -42,6 +41,60 @@
 	</header>	
 		
 		<div class="wrap course_wrap">
+			
+			  <section class="list_banner">
+		 <ul id="list_bannerul">
+		 	<li  style="background-image: url(images/work_banner01.jpg);"></li>
+		 	<li style="background-image:   url(images/in_banner01.jpg)"></li>
+		 	<li  style="background-image: url(images/work_banner01.jpg);"></li>
+		 	
+		 </ul>	
+		 
+		 
+			
+			
+		</section>
+		<div class="list_banner_btn">
+			<ul id="list_banner_btn">
+				<li class="current"></li>
+				<li></li>
+				<li></li>
+			</ul>
+			
+		</div>
+			
+		<section class="class_list width1000">
+			<div class="class_list_left">
+			  <ul>
+			  	<li>
+			  		<div  class="class_list_left_box">
+			  			<h1>风尚化妆班</h1>
+			  			<p>养在校大学生、在职白领具备时尚化妆领域时尚类彩妆整体造型，简单的色彩搭配能力，怎样为自身打造良好妆容，以及初步队顾客的打造。</p>
+			  			<table>
+			  				<tr><td>形象设计原理</td><td>睫毛的处理及假睫毛的认识与分类佩戴</td></tr>
+			  				<tr><td>发型基础学习</td><td>腮红、唇的色彩选用</td></tr>
+			  				<tr><td>骨骼与肌肉分析</td>色彩的基本原理及运用<td></td></tr>
+			  				<tr><td>化妆美学标准</td><td>矫正化妆技巧 </td></tr>
+			  				<tr><td>粉底的基本认识</td><td>自然清新生活妆</td></tr>
+			  				<tr><td>立体打底法</td><td>当日新娘造型</td></tr>
+			  				<tr><td>眉毛的标准修饰</td><td>晚宴造型</td></tr>
+			  				<tr><td>眼部精美修饰</td><td>时尚小烟熏造型  </td></tr>
+			  				
+			  			</table>
+			  			
+			  		</div>
+			  		
+			  		
+			  	</li>
+			  	
+			  	
+			  </ul>
+				
+				
+			</div>
+			
+		</section>
+			
 			
 			
 			
@@ -158,6 +211,17 @@
         
          </div>
         </div>
-	  </footer>		
+	  </footer>	
+	  <script>
+		$(document).ready(function(){
+			 $.fn.scrollfn({
+			 	Btnul: "#list_banner_btn",
+                BannerBtnclass:"current",
+                type: 1,
+                isAutomatic:1   
+			 },"#list_bannerul")
+		})
+			
+		</script>
 	</body>
 </html>

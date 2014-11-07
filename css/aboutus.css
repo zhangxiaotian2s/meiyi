@@ -2,6 +2,7 @@
 .about_wrap{ background: #e9e8ee;}
 
 .abut_team,.aboutus_content{ background: #FFFFFF; overflow: hidden;}
+.abut_team ul { margin-left: 2px;}
 .abut_team ul li{ width: 83px; height: 83px; float:left;}
 .abut_team ul li img{ display: block; margin:1px auto;}
 .abut_team ul li.last{ background: #C6171E;}

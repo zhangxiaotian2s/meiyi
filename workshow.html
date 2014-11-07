@@ -7,7 +7,7 @@
 		<meta name="keywords" content="" />
 		<meta name="description" content="" />
 		<link rel="stylesheet" href="css/public.css" />
-	    <link rel="stylesheet" href="css/workshow_css.css" />
+	    <link rel="stylesheet" href="css/workshow.css"/>
 		<link rel="stylesheet" href="css/action.css" />
 		<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
 		<script type="text/javascript" src="js/scroll.js"></script>
@@ -53,20 +53,15 @@
 		
 	<div class="wrap worksshow_wrap">
 	
-	   <section class="works_banner">
-		 <ul id="works_bannerul">
+	   <section class="list_banner">
+		 <ul id="list_bannerul">
 		 	<li  style="background-image: url(images/work_banner01.jpg);"></li>
 		 	<li style="background-image:   url(images/in_banner01.jpg)"></li>
-		 	<li  style="background-image: url(images/work_banner01.jpg);"></li>
-		 	
-		 </ul>	
-		 
-		 
-			
-			
+		 	<li  style="background-image: url(images/work_banner01.jpg);"></li>	
+		 </ul>			 
 		</section>
-		<div class="works_banner_btn">
-			<ul id="works_banner_btn">
+		<div class="list_banner_btn">
+			<ul id="list_banner_btn">
 				<li class="current"></li>
 				<li></li>
 				<li></li>
@@ -434,11 +429,11 @@
 		<script>
 		$(document).ready(function(){
 			 $.fn.scrollfn({
-			 	Btnul: "#works_banner_btn",
+			 	Btnul: "#list_banner_btn",
                 BannerBtnclass:"current",
                 type: 1,
                 isAutomatic:1   
-			 },"#works_bannerul")
+			 },"#list_bannerul")
 		})
 			
 		</script>

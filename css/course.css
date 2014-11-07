@@ -1,0 +1,12 @@
+
+.course_wrap{ background: #e9e8ee;}
+.list_banner{width: 100%; height:348px; position: relative;}
+.list_banner ul li{ width: 100%; height: 348px; position: absolute;  top: 0px; left: 0px;
+ background-position: center;
+background-repeat: no-repeat ;
+  background-size:cover;
+}
+.list_banner_btn{ width: 100%; height: 10px; background: #C60001; position:relative;}
+.list_banner_btn ul{ width: 111px; position: absolute; left: 50%; margin-left: -55px; top: 2px;}
+.list_banner_btn ul li{ width: 37px; float: left; height: 6px; overflow: hidden; background: #000102;}
+.list_banner_btn ul li.current{ background: #2e2d2d;}

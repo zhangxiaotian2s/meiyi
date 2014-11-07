@@ -1,0 +1,30 @@
+.servermes_wrap{ background: #e9e8ee;}
+
+.list_banner{width: 100%; height:235px; position: relative;}
+.list_banner ul li{ width: 100%; height: 235px; position: absolute;  top: 0px; left: 0px;
+ background-position: center;
+background-repeat: no-repeat ;
+  background-size:cover;
+}
+.list_banner_btn{ width: 100%; height: 10px;background:#C60001; position:relative;}
+.list_banner_btn ul{ width: 111px; position:absolute; left: 50%; margin-left: -55px; top: 2px;}
+.list_banner_btn ul li{ width: 37px; float:left; height:6px; overflow:hidden; background:#000102;}
+.list_banner_btn ul li.current{ background: #2e2d2d;}
+
+
+.server_contet{ background: #FFFFFF;}
+
+.server_left{ width: 540px; float: left; overflow: hidden;}
+.server_left h2{ font-size: 16px; text-align: center;}
+.server_left  p{  text-align: center; width: 326px; margin: 0 auto; font-size: 12px;  line-height: 26px;}
+.server_left .server_tel{ font-size: 16px; font-weight: bold;}
+
+.server_right{ width: 460px; float:left;}
+.server_right ul li{  padding: 0px 30px 0px 0px;}
+.server_right ul li p{ color: #393939; font-size: 12px; line-height:20px;;}
+.server_title{height: 42px; line-height: 42px; border-top:#606060 dotted 1px; border-bottom:#606060 dotted 1px;;}
+.server_title h2{ float: left; font-size: 14px;}
+.server_title h2 a { color: #2E2D2D;}
+.server_title .server_zxzx{ display: block; float: left; width: 60px; height: 20px; line-height: 18px; background: url(../images/zxzx_btn.jpg);  font-size: 12px; padding-left: 26px; margin: 12px 10px 0px 10px  ; display: inline; color: #FFFFFF; } 
+
+.server_title .server_yy{display: block; float: left; width: 33px; height: 20px; line-height: 18px; background: url(../images/yuyue_btn.jpg);  font-size: 12px; padding-left: 26px; margin-top: 12px; color: #FFFFFF;}
