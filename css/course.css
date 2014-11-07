@@ -10,3 +10,41 @@ background-repeat: no-repeat ;
 .list_banner_btn ul{ width: 111px; position: absolute; left: 50%; margin-left: -55px; top: 2px;}
 .list_banner_btn ul li{ width: 37px; float: left; height: 6px; overflow: hidden; background: #000102;}
 .list_banner_btn ul li.current{ background: #2e2d2d;}
+
+
+
+.course_list{ position: relative; overflow: hidden; }
+.course_list ul li{ margin: 20px 0px; overflow:hidden;}
+
+.course_list_left{ width: 505px; overflow: hidden; position: absolute;  left: 0px; top: 0px;}
+.course_list_left .course_list_left_box{ width: 440px; padding: 0px 10px; border: #999999 solid 1px; background: #FFFFFF;}
+.course_list_left ul li{ background: url(../images/course_bk01.png) no-repeat  right top;}
+.course_list_left ul li h1{ height: 40px; line-height: 40px; font-size: 14px; color: #501414; text-align: right; padding-right: 20px; background: url(../images/course_bk03.jpg)  no-repeat center right; border-bottom: #f1f3f7 solid 1px;}
+.course_list_left ul li p,.course_list_right ul li p{ font-size: 12px; line-height: 26px;;}
+.course_list_left ul li table,.course_list_right ul li  table{ border: none; font-size: 12px;;}
+.course_list_left ul li table td,.course_list_right ul li table td{ height: 22px; line-height: 22px;}
+.course_list ul li .course_zxzx{ display: block; float: left; width: 60px; height: 20px; line-height: 18px; background: url(../images/zxzx_btn.jpg);  font-size: 12px; padding-left: 26px; margin: 12px 10px 0px 10px  ; display: inline; color: #FFFFFF; } 
+.course_list ul li h4 span{ margin: 0px 10px; font-size: 14px;}
+.course_list ul li  .course_yy{display: block; float: left; width: 33px; height: 20px; line-height: 18px; background: url(../images/yuyue_btn.jpg);  font-size: 12px; padding-left: 26px; margin-top: 12px; color: #FFFFFF;}
+
+.course_list_right{ width: 505px; position: absolute;overflow: hidden;  right: 0px; top: 0px;}
+.course_list_right .course_list_right_box{width: 440px; padding: 0px 10px; border: #999999 solid 1px; background: #FFFFFF; float: right;}
+.course_list_right ul li{ background: url(../images/course_bk02.png) no-repeat  left  top;}
+.course_list_right ul li h1{ height: 40px; line-height: 40px; font-size: 14px; color: #501414; text-align: left; padding-left: 20px; background: url(../images/course_bk03.jpg)  no-repeat center left; border-bottom: #f1f3f7 solid 1px;}
+.vertical_line{ width: 1px; background:#666666;  position: absolute; top: 40px;  left: 499px; z-index: 1000;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
