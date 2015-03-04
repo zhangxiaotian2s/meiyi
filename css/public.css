@@ -1,15 +1,16 @@
-*{ margin: 0; padding: 0; font-family: "微软雅黑";}
+*{ margin: 0; padding: 0; font-family: "微软雅黑" verdana;}
 a{ text-decoration: none;}
 li{ list-style: none;}
 img{ border: 0;}
 
 table{ border-collapse: collapse;}
-
+.clearboth{ clear: both; height: 0px; overflow: hidden;}
 .wrap{ width: 100%; overflow: hidden;}
 .blank10{ display: block; height: 10px; clear: both; overflow: hidden;}
 .blank20{display: block; height: 20px; clear: both; overflow: hidden;}
 .blank30{display: block; height: 30px; clear: both; overflow: hidden;}
 .width1000{ width: 1000px; margin:  auto;}
+.width980{ width: 980px; margin: auto;}
 .red_span { color: #C6171E;}
 .green{ color: #1a5a18;}
 .hover1s{ -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -ms-transition: all 1s; -o-transition: all 1s ease; transition: all 1s ease ;}
@@ -56,5 +57,27 @@ table{ border-collapse: collapse;}
 .friend_link li a{ white-space:nowrap; color: #393939;}
 
 /****************************************/
+
+/*******************new 2015年 2月末首页新增********************/
+.n_public_head{}
+.n_public_top{ width: 100%; height: 100px; background: #f52b8f; padding-top: 15px;}
+.n_public_top img{ display: block; }
+.n_top_tel{ float: right;}
+.n_top_logo{ float: left;}
+
+
+.new_nav_box{ width: 100%; height: 45px; border-top: #e9e9e9 solid 2px; background:url(../images/new_nav_box_new.png) repeat-x;}
+.new_nav{ height: 45px; position:relative; background:url(../images/new_nav_bk.png) repeat-x;}
+.n_nav_left{ width: 15px; height: 45px; position: absolute;  left: 0px; top: 0px; background: url(../images/new_nav_left.png);}
+.n_nav_right{width: 15px; height: 45px; position: absolute;  right: 0px; top: 0px; background: url(../images/new_nav_right.png);}
+
+.new_nav ul li{ float: left; margin-left: 50px; height: 45px; line-height: 45px;}
+.new_nav ul li a{ color: #f52b8f; font-size: 16px; font-weight: bold;} 
+.new_nav ul li a:hover{ color: #dc1879;}
+.n_banner{ background:#e22f71; width: 100%; height: 464px;}
+.n_banner_nr img{ display:block; margin:  auto;}
+
+
+.new_foot{ wwidth: 100%; height: 118px; background: url(../images/new_foot_bk.png) repeat-x;    }
 
 
